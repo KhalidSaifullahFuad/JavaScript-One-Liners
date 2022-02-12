@@ -16,3 +16,8 @@ const reverseString = (str) => str.split("").reverse().join("");
 ```JavaScript
 const average = (arr) => arr.reduce((a, b) => a + b) / arr.length
 ``` 
+
+- Capitalize a String
+```JavaScript
+const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1)
+```
