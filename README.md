@@ -11,3 +11,8 @@ const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd +
 ```JavaScript
 const reverseString = (str) => str.split("").reverse().join("");
 ```
+
+-  Average of an Array of Number
+```JavaScript
+const average = (arr) => arr.reduce((a, b) => a + b) / arr.length
+``` 
