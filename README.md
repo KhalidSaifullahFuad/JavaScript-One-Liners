@@ -4,7 +4,7 @@
 
 - Random Number Generator
 
-```JS
+```JavaScript
 const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd + rangeStart;
 ```
 
@@ -24,4 +24,10 @@ const average = (arr) => arr.reduce((a, b) => a + b) / arr.length;
 
 ```JavaScript
 const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+```
+
+- Days between two dates
+
+```JavaScript
+const daysBetweenDates = (date1, date2) => Math.abs(date1.getTime() - new date2.getTime()) / (1000 * 3600 * 24);
 ```
