@@ -2,12 +2,18 @@
 
 <br/>
 
-<!------------ NUMBER ----------->
+<!--------- RANDOM STUFF -------->
 
 - Random Number Generator
 
 ```JavaScript
 const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd + rangeStart;
+```
+
+- Random Hexadecimal Color
+
+```JavaScript
+const randomHexColor = () => `#${Math.floor(Math.random() * 0xFFFFFF).toString(16).padStart(6, '0').toUpperCase()}`;
 ```
 
 <!------------ STRING ----------->
@@ -22,6 +28,8 @@ const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 
 ```JavaScript
 const reverseString = (str) => str.split("").reverse().join("");
+// OR
+const reverseString = (str) => [...str].reverse().join();
 ```
 
 <!------------ ARRAY ----------->
