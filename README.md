@@ -50,6 +50,12 @@ const isEmpty = (arr) => !Array.isArray(arr) || !arr.length;
 const average = (arr) => arr.reduce((a, b) => a + b) / arr.length;
 ```
 
+### Find Unique Values in an Array
+
+```JavaScript
+const findUniqueValues = (arr) => arr.filter((i) => arr.indexOf(i) === arr.lastIndexOf(i));
+```
+
 ### Remove Duplicates from an Array
 
 ```JavaScript
