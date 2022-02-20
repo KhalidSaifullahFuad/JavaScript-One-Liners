@@ -32,6 +32,12 @@ const reverseString = (str) => [...str].reverse().join();
 
 <!------------ ARRAY ----------->
 
+### Check if an Array Is Empty
+
+```JavaScript
+const isEmpty = (arr) => !Array.isArray(arr) || !arr.length;
+```
+
 ### Average of an Array of Number
 
 ```JavaScript
