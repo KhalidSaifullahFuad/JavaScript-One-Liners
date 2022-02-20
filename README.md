@@ -6,6 +6,8 @@
 
 ```JavaScript
 const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd + rangeStart;
+// OR
+const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 ```
 
 ### Random Hexadecimal Color
@@ -90,4 +92,10 @@ const daysBetweenDates = (date1, date2) => Math.ceil(Math.abs(date1 - date2) / (
 const getWeekday = (date) => ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][date.getDay()];
 // OR
 const getWeekday = (date) => date.toLocaleString('en-US', {weekday: 'long'});
+```
+
+### Check if the date is Weekend
+
+```JavaScript
+const isWeekend = (date) => [5, 6].indexOf(date.getDay()) !== -1;
 ```
