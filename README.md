@@ -30,6 +30,12 @@ const reverseString = (str) => str.split("").reverse().join("");
 const reverseString = (str) => [...str].reverse().join();
 ```
 
+### Convert Snake case to Camel case
+
+```JavaScript
+const snakeToCamel = (str) => str.toLowerCase().replace(/(_\w)/g, (word) => word.toUpperCase().substr(1));
+```
+
 <!------------ ARRAY ----------->
 
 ### Check if an Array Is Empty
@@ -78,5 +84,4 @@ const daysBetweenDates = (date1, date2) => Math.ceil(Math.abs(date1 - date2) / (
 const getWeekday = (date) => ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][date.getDay()];
 // OR
 const getWeekday = (date) => date.toLocaleString('en-US', {weekday: 'long'});
-
 ```
