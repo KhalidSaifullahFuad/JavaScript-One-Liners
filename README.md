@@ -11,7 +11,7 @@ const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd +
 ### Random Hexadecimal Color
 
 ```JavaScript
-const randomHexColor = () => `#${Math.floor(Math.random()*0xFFFFFF).toString(16).padStart(6,'0').toUpperCase()}`;
+const randomHexColor = () => `#${Math.floor(Math.random()*0xFFFFFF).toString(16).padStart(6,'0')}`;
 ```
 
 <!------------ STRING ----------->
@@ -50,7 +50,7 @@ const removeDuplicates = (arr) => [...new Set(arr)];
 const shuffle = (arr) => arr.slice().sort(() => Math.random() - 0.5);
 ```
 
-## Remove Falsy value from Array
+### Remove Falsy value from Array
 
 ```JavaScript
 const removeFalsyValues = (arr) => arr.filter(x=>x)
@@ -64,4 +64,13 @@ const removeFalsyValues = (arr) => arr.filter(Boolean)
 
 ```JavaScript
 const daysBetweenDates = (date1, date2) => Math.ceil(Math.abs(date1 - date2) / (1000 * 60 * 60 * 24));
+```
+
+### Weekday of a Date
+
+```JavaScript
+const getWeekday = (date) => ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][date.getDay()];
+// OR
+const getWeekday = (date) => date.toLocaleString('en-US', {weekday: 'long'});
+
 ```
