@@ -1,6 +1,5 @@
 # JavaScript One Liners
 
-
 <!--------- RANDOM STUFF -------->
 
 ### Random Number Generator
@@ -51,10 +50,18 @@ const removeDuplicates = (arr) => [...new Set(arr)];
 const shuffle = (arr) => arr.slice().sort(() => Math.random() - 0.5);
 ```
 
+## Remove Falsy value from Array
+
+```JavaScript
+const removeFalsyValues = (arr) => arr.filter(x=>x)
+// OR
+const removeFalsyValues = (arr) => arr.filter(Boolean)
+```
+
 <!------------- DATE ------------>
 
 ### Days between two dates
 
 ```JavaScript
-const daysBetweenDates = (date1, date2) => Math.abs(date1.getTime() - new date2.getTime()) / (1000 * 3600 * 24);
+const daysBetweenDates = (date1, date2) => Math.ceil(Math.abs(date1 - date2) / (1000 * 60 * 60 * 24));
 ```
