@@ -12,7 +12,7 @@ const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd +
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 ```
 
-### Random Hexadecimal Color
+### Random Hexadecimal Color Generator
 
 ```JavaScript
 const randomHexColor = () => `#${Math.floor(Math.random()*0xFFFFFF).toString(16).padStart(6,'0')}`;
