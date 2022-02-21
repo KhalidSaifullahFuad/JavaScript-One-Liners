@@ -6,7 +6,9 @@
 
 ```JavaScript
 const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd + rangeStart;
-// OR
+```
+
+```JavaScript
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 ```
 
@@ -28,7 +30,9 @@ const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 
 ```JavaScript
 const reverseString = (str) => str.split("").reverse().join("");
-// OR
+```
+
+```JavaScript
 const reverseString = (str) => [...str].reverse().join();
 ```
 
@@ -74,7 +78,9 @@ const shuffle = (arr) => arr.slice().sort(() => Math.random() - 0.5);
 
 ```JavaScript
 const removeFalsyValues = (arr) => arr.filter(x=>x)
-// OR
+```
+
+```JavaScript
 const removeFalsyValues = (arr) => arr.filter(Boolean)
 ```
 
@@ -90,7 +96,9 @@ const daysBetweenDates = (date1, date2) => Math.ceil(Math.abs(date1 - date2) / (
 
 ```JavaScript
 const getWeekday = (date) => ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][date.getDay()];
-// OR
+```
+
+```JavaScript
 const getWeekday = (date) => date.toLocaleString('en-US', {weekday: 'long'});
 ```
 
