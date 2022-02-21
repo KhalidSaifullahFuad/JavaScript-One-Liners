@@ -1,5 +1,11 @@
 # JavaScript One Liners
 
+<!-- 
+https://medium.com/dailyjs/10-javascript-oneliners-you-have-got-to-add-your-arsenal-as-a-developer-b733cbb973b2
+https://dev.to/saviomartin/20-killer-javascript-one-liners-94f
+https://www.makeuseof.com/javascript-one-liners-you-should-know/
+-->
+
 <!--------- RANDOM STUFF -------->
 
 ### Random Number Generator
