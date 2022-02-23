@@ -1,4 +1,3 @@
-# JavaScript One Liners
 
 <!-- 
 https://medium.com/dailyjs/10-javascript-oneliners-you-have-got-to-add-your-arsenal-as-a-developer-b733cbb973b2
@@ -6,7 +5,13 @@ https://dev.to/saviomartin/20-killer-javascript-one-liners-94f
 https://www.makeuseof.com/javascript-one-liners-you-should-know/
 -->
 
-<!--------- RANDOM STUFF -------->
+<h1 align="center"> 
+
+JavaScript One Liners 
+
+</h1>
+
+<br><h2 align="center"> RANDOM </h2>
 
 ### Random Number Generator
 
@@ -24,7 +29,7 @@ const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + 
 const randomHexColor = () => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
 ```
 
-<!------------ STRING ----------->
+<br><h2 align="center"> STRING </h2>
 
 ### Capitalize a String
 
@@ -48,7 +53,7 @@ const reverseString = (str) => [...str].reverse().join();
 const snakeToCamel = (str) => str.toLowerCase().replace(/(_\w)/g, (word) => word.toUpperCase().substr(1));
 ```
 
-<!------------ ARRAY ----------->
+<br><h2 align="center"> ARRAY </h2>
 
 ### Check if an Array Is Empty
 
@@ -90,7 +95,7 @@ const removeFalsyValues = (arr) => arr.filter(x=>x)
 const removeFalsyValues = (arr) => arr.filter(Boolean)
 ```
 
-<!------------- DATE ------------>
+<br><h2 align="center"> DATE </h2>
 
 ### Days between two dates
 
