@@ -21,7 +21,7 @@ const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + 
 ### Random Hexadecimal Color Generator
 
 ```JavaScript
-const randomHexColor = () => `#${Math.floor(Math.random()*0xFFFFFF).toString(16).padStart(6,'0')}`;
+const randomHexColor = () => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
 ```
 
 <!------------ STRING ----------->
