@@ -29,6 +29,11 @@ const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + 
 const randomHexColor = () => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
 ```
 
+### Random Boolean Generator
+```JavaScript
+const randomBoolean = () => Math.random() >= 0.5;
+```
+
 <br><h2 align="center"> STRING </h2>
 
 ### Capitalize a String
