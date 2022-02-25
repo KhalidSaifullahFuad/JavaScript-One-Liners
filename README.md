@@ -60,12 +60,6 @@ const snakeToCamel = (str) => str.toLowerCase().replace(/(_\w)/g, (word) => word
 
 <br><h2 align="center"> ARRAY </h2>
 
-### Check if an Array Is Empty
-
-```JavaScript
-const isEmpty = (arr) => !Array.isArray(arr) || !arr.length;
-```
-
 ### Average of an Array of Number
 
 ```JavaScript
@@ -116,6 +110,14 @@ const getWeekday = (date) => ['Sunday','Monday','Tuesday','Wednesday','Thursday'
 
 ```JavaScript
 const getWeekday = (date) => date.toLocaleString('en-US', {weekday: 'long'});
+```
+
+<br><h2 align="center"> VALIDATION </h2>
+
+### Check if an Array Is Empty
+
+```JavaScript
+const isEmpty = (arr) => !Array.isArray(arr) || !arr.length;
 ```
 
 ### Check if the date is Weekend
