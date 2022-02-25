@@ -66,6 +66,12 @@ const snakeToCamel = (str) => str.toLowerCase().replace(/(_\w)/g, (word) => word
 const average = (arr) => arr.reduce((a, b) => a + b) / arr.length;
 ```
 
+### Sort an Array
+
+```JavaScript
+const sort = (arr) => arr.slice().sort((a, b) => a - b);
+```
+
 ### Find Unique Values in an Array
 
 ```JavaScript
