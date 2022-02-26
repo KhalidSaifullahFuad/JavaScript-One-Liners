@@ -11,6 +11,48 @@ JavaScript One Liners
 
 </h1>
 
+<br><h2 align="center"> ARRAY </h2>
+
+### Average of an Array of Number
+
+```JavaScript
+const average = (arr) => arr.reduce((a, b) => a + b) / arr.length;
+```
+
+### Sort an Array
+
+```JavaScript
+const sort = (arr) => arr.slice().sort((a, b) => a - b);
+```
+
+### Find Unique Values in an Array
+
+```JavaScript
+const findUniqueValues = (arr) => arr.filter((i) => arr.indexOf(i) === arr.lastIndexOf(i));
+```
+
+### Remove Duplicates from an Array
+
+```JavaScript
+const removeDuplicates = (arr) => [...new Set(arr)];
+```
+
+### Shuffle an Array
+
+```JavaScript
+const shuffle = (arr) => arr.slice().sort(() => Math.random() - 0.5);
+```
+
+### Remove Falsy value from Array
+
+```JavaScript
+const removeFalsyValues = (arr) => arr.filter(x=>x)
+```
+
+```JavaScript
+const removeFalsyValues = (arr) => arr.filter(Boolean)
+```
+
 <br><h2 align="center"> RANDOM </h2>
 
 ### Random Number Generator
@@ -56,48 +98,6 @@ const reverseString = (str) => [...str].reverse().join();
 
 ```JavaScript
 const snakeToCamel = (str) => str.toLowerCase().replace(/(_\w)/g, (word) => word.toUpperCase().substr(1));
-```
-
-<br><h2 align="center"> ARRAY </h2>
-
-### Average of an Array of Number
-
-```JavaScript
-const average = (arr) => arr.reduce((a, b) => a + b) / arr.length;
-```
-
-### Sort an Array
-
-```JavaScript
-const sort = (arr) => arr.slice().sort((a, b) => a - b);
-```
-
-### Find Unique Values in an Array
-
-```JavaScript
-const findUniqueValues = (arr) => arr.filter((i) => arr.indexOf(i) === arr.lastIndexOf(i));
-```
-
-### Remove Duplicates from an Array
-
-```JavaScript
-const removeDuplicates = (arr) => [...new Set(arr)];
-```
-
-### Shuffle an Array
-
-```JavaScript
-const shuffle = (arr) => arr.slice().sort(() => Math.random() - 0.5);
-```
-
-### Remove Falsy value from Array
-
-```JavaScript
-const removeFalsyValues = (arr) => arr.filter(x=>x)
-```
-
-```JavaScript
-const removeFalsyValues = (arr) => arr.filter(Boolean)
 ```
 
 <br><h2 align="center"> DATE </h2>
