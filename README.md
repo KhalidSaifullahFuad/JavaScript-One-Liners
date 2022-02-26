@@ -139,3 +139,8 @@ const isWeekend = (date) => [5, 6].indexOf(date.getDay()) !== -1;
 ```JavaScript
 const getSelectedText = () => window.getSelection().toString();
 ```
+### Toggle a Boolean
+
+```JavaScript
+const toggle = (flag) => !flag;
+```
