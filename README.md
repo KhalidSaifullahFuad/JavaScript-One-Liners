@@ -131,3 +131,11 @@ const isEmpty = (arr) => !Array.isArray(arr) || !arr.length;
 ```JavaScript
 const isWeekend = (date) => [5, 6].indexOf(date.getDay()) !== -1;
 ```
+
+<br><h2 align="center"> MISCELLANEOUS </h2>
+
+### Get selected text
+
+```JavaScript
+const getSelectedText = () => window.getSelection().toString();
+```
