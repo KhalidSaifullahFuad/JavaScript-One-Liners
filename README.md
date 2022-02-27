@@ -47,11 +47,11 @@ const shuffle = (arr) => arr.slice().sort(() => Math.random() - 0.5);
 ### Remove Falsy value from Array
 
 ```JavaScript
-const removeFalsyValues = (arr) => arr.filter(x=>x)
+const removeFalsyValues = (arr) => arr.filter(x => x);
 ```
 
 ```JavaScript
-const removeFalsyValues = (arr) => arr.filter(Boolean)
+const removeFalsyValues = (arr) => arr.filter(Boolean);
 ```
 
 <br><h2 align="center"> RANDOM </h2>
