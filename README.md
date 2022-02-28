@@ -44,6 +44,16 @@ const removeDuplicates = (arr) => [...new Set(arr)];
 const shuffle = (arr) => arr.slice().sort(() => Math.random() - 0.5);
 ```
 
+### Merge two Arrays
+
+```JavaScript
+const merge = (arr1, arr2) => [].concat(arr1, arr2);
+```
+
+```JavaScript
+const merge = (arr1, arr2) => [...arr1, ...arr2];
+```
+
 ### Remove Falsy value from Array
 
 ```JavaScript
