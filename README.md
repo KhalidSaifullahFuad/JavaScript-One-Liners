@@ -137,6 +137,16 @@ const getWeekday = (date) => date.toLocaleString('en-US', {weekday: 'long'});
 const isEmpty = (arr) => !Array.isArray(arr) || !arr.length;
 ```
 
+### Check if Array includes a Value
+
+```JavaScript
+const includes = (arr, value) => arr.indexOf(value) != -1;
+```
+
+```JavaScript
+const includes = (arr, value) => arr.includes(value);
+```
+
 ### Check if the date is Weekend
 
 ```JavaScript
