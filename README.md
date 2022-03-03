@@ -32,6 +32,10 @@ const sort = (arr) => arr.slice().sort((a, b) => a - b);
 const clone = (arr) => arr.slice();
 ```
 
+```JavaScript
+const clone = (arr) => [...arr];
+```
+
 ### Find Unique Values in an Array
 
 ```JavaScript
