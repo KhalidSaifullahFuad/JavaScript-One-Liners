@@ -115,6 +115,12 @@ const reverseString = (str) => str.split("").reverse().join("");
 const reverseString = (str) => [...str].reverse().join();
 ```
 
+### Convert a String to a Number
+
+```JavaScript
+const toNumber = (str) => Number(str);
+```
+
 ### Convert Snake case to Camel case
 
 ```JavaScript
