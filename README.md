@@ -64,6 +64,12 @@ const merge = (arr1, arr2) => [].concat(arr1, arr2);
 const merge = (arr1, arr2) => [...arr1, ...arr2];
 ```
 
+### Merge and Remove the Duplications
+
+```JavaScript
+const merge = (arr1, arr2) => [...new Set(arr1.concat(arr2))];
+```
+
 ### Remove Falsy value from Array
 
 ```JavaScript
