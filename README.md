@@ -70,6 +70,10 @@ const merge = (arr1, arr2) => [...arr1, ...arr2];
 const merge = (arr1, arr2) => [...new Set(arr1.concat(arr2))];
 ```
 
+```JavaScript
+const merge = (arr1, arr2) => [...new Set([...arr1, ...arr2])];
+```
+
 ### Remove Falsy value from Array
 
 ```JavaScript
