@@ -42,16 +42,16 @@ const clone = (arr) => [...arr];
 const findUniqueValues = (arr) => arr.filter((i) => arr.indexOf(i) === arr.lastIndexOf(i));
 ```
 
-### Remove Duplicates from an Array
-
-```JavaScript
-const removeDuplicates = (arr) => [...new Set(arr)];
-```
-
 ### Shuffle an Array
 
 ```JavaScript
 const shuffle = (arr) => arr.slice().sort(() => Math.random() - 0.5);
+```
+
+### Remove Duplicates from an Array
+
+```JavaScript
+const removeDuplicates = (arr) => [...new Set(arr)];
 ```
 
 ### Merge two Arrays
