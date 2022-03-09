@@ -135,6 +135,12 @@ const toNumber = (str) => Number(str);
 const toNumber = (str) => +str;
 ```
 
+### Convert a String to a Character Array
+
+```JavaScript
+const toCharArray = (str) => str.split('');
+```
+
 ### Convert Snake case to Camel case
 
 ```JavaScript
