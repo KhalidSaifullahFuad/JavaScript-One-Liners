@@ -1,11 +1,3 @@
-
-<!-- 
-https://medium.com/dailyjs/10-javascript-oneliners-you-have-got-to-add-your-arsenal-as-a-developer-b733cbb973b2
-https://dev.to/saviomartin/20-killer-javascript-one-liners-94f
-https://www.makeuseof.com/javascript-one-liners-you-should-know/
-https://www.samanthaming.com/tidbits/?filter=JS#CodeTidbits
--->
-
 <h1 align="center"> 
 
 JavaScript One Liners 
@@ -212,3 +204,17 @@ const getSelectedText = () => window.getSelection().toString();
 ```JavaScript
 const toggle = (flag) => !flag;
 ```
+
+
+
+<br><h1 align="center"> 
+
+Reference 
+
+</h1>
+
+* https://medium.com/dailyjs/10-javascript-oneliners-you-have-got-to-add-your-arsenal-as-a-developer-b733cbb973b2
+* https://dev.to/saviomartin/20-killer-javascript-one-liners-94f
+* https://www.makeuseof.com/javascript-one-liners-you-should-know/
+* https://www.samanthaming.com/tidbits/?filter=JS#CodeTidbits
+* https://dev.to/ruppysuppy/7-killer-one-liners-in-javascript-one
