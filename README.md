@@ -219,3 +219,4 @@ Reference
 * https://www.makeuseof.com/javascript-one-liners-you-should-know/
 * https://www.samanthaming.com/tidbits/?filter=JS#CodeTidbits
 * https://dev.to/ruppysuppy/7-killer-one-liners-in-javascript-one
+* https://dev.to/everlyhealth/our-favorite-javascript-one-liners-3l7n
