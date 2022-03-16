@@ -213,6 +213,7 @@ Reference
 
 </h1>
 
+* https://dev.to/ovi/20-javascript-one-liners-that-will-help-you-code-like-a-pro-4ddc
 * https://medium.com/dailyjs/10-javascript-oneliners-you-have-got-to-add-your-arsenal-as-a-developer-b733cbb973b2
 * https://dev.to/saviomartin/20-killer-javascript-one-liners-94f
 * https://www.makeuseof.com/javascript-one-liners-you-should-know/
