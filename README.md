@@ -149,7 +149,11 @@ const toCharArray = (str) => [...str];
 ```
 
 ```JavaScript
-const toCharArray = (str) => Array.from(string);
+const toCharArray = (str) => Array.from(str);
+```
+
+```JavaScript
+const toCharArray = (str) => Object.assign([], str);
 ```
 
 ### Convert Snake case to Camel case
