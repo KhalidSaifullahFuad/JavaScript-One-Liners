@@ -37,6 +37,10 @@ const findUniqueValues = (arr) => arr.filter((i) => arr.indexOf(i) === arr.lastI
 ### Get the Last Element from an Array
 
 ```JavaScript
+const lastElement = (arr) => arr[arr.length-1];
+```
+
+```JavaScript
 const lastElement = (arr) => arr.slice(-1)[0];
 ```
 
