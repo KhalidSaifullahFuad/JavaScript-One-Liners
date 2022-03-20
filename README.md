@@ -144,6 +144,10 @@ const toNumber = (str) => +str;
 const toCharArray = (str) => str.split('');
 ```
 
+```JavaScript
+const toCharArray = (str) => [...str];
+```
+
 ### Convert Snake case to Camel case
 
 ```JavaScript
