@@ -91,29 +91,6 @@ const removeFalsyValues = (arr) => arr.filter(x => x);
 const removeFalsyValues = (arr) => arr.filter(Boolean);
 ```
 
-<br><h2 align="center"> RANDOM </h2>
-
-### Random Number Generator
-
-```JavaScript
-const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd + rangeStart;
-```
-
-```JavaScript
-const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
-```
-
-### Random Hexadecimal Color Generator
-
-```JavaScript
-const randomHexColor = () => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
-```
-
-### Random Boolean Generator
-```JavaScript
-const randomBoolean = () => Math.random() >= 0.5;
-```
-
 <br><h2 align="center"> STRING </h2>
 
 ### Capitalize a String
@@ -182,6 +159,29 @@ const getWeekday = (date) => ['Sunday','Monday','Tuesday','Wednesday','Thursday'
 
 ```JavaScript
 const getWeekday = (date) => date.toLocaleString('en-US', {weekday: 'long'});
+```
+
+<br><h2 align="center"> RANDOM </h2>
+
+### Random Number Generator
+
+```JavaScript
+const randomNumber = (rangeStart, rangeEnd) => new Date().getTime() % rangeEnd + rangeStart;
+```
+
+```JavaScript
+const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+```
+
+### Random Hexadecimal Color Generator
+
+```JavaScript
+const randomHexColor = () => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
+```
+
+### Random Boolean Generator
+```JavaScript
+const randomBoolean = () => Math.random() >= 0.5;
 ```
 
 <br><h2 align="center"> VALIDATION </h2>
