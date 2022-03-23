@@ -208,6 +208,14 @@ const includes = (arr, value) => arr.includes(value);
 const isWeekend = (date) => [5, 6].indexOf(date.getDay()) !== -1;
 ```
 
+<br><h2 align="center"> REGULAR EXPRESSION </h2>
+
+### Get selected text
+
+```JavaScript
+const getSelectedText = () => window.getSelection().toString();
+```
+
 <br><h2 align="center"> MISCELLANEOUS </h2>
 
 ### Get selected text
