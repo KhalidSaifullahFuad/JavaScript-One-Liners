@@ -223,12 +223,18 @@ const getSelectedText = () => window.getSelection().toString();
 ```JavaScript
 const getSelectedText = () => window.getSelection().toString();
 ```
+
 ### Toggle a Boolean
 
 ```JavaScript
 const toggle = (flag) => !flag;
 ```
 
+### Swap to Variables
+
+```JavaScript
+const swap = (a,b) => [a,b] = [b,a];
+``
 
 
 <br><h1 align="center"> 
