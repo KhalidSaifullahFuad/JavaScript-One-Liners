@@ -234,8 +234,7 @@ const toggle = (flag) => !flag;
 
 ```JavaScript
 const swap = (a,b) => [a,b] = [b,a];
-``
-
+```
 
 <br><h1 align="center"> 
 
