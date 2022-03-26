@@ -216,6 +216,12 @@ const isWeekend = (date) => [5, 6].indexOf(date.getDay()) !== -1;
 const checkPhoneNumber = (phone) => (/^(\+91|0)?\s?\d{10}$/).test(phone);
 ```
 
+### CamelCase Validation
+
+```JavaScript
+const isCamelCase = (str) => (/^[a-z][a-zA-Z0-9]$/).test(str);
+```
+
 <br><h2 align="center"> MISCELLANEOUS </h2>
 
 ### Get selected text
