@@ -6,6 +6,17 @@ JavaScript One Liners
 
 <br><h2 align="center"> ARRAY </h2>
 
+
+### Check if a variable is an Array
+
+```JavaScript
+const isArray = Array.isArray(arr);
+```
+
+```JavaScript
+const isArray = arr instanceof Array;
+```
+
 ### Average of an Array of Number
 
 ```JavaScript
