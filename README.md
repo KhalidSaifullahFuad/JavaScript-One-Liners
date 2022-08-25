@@ -17,6 +17,12 @@ const isArray = Array.isArray(arr);
 const isArray = arr instanceof Array;
 ```
 
+### Sum of an Array of Number
+
+```JavaScript
+const sum = (arr) => arr.reduce((a, b) => a + b);
+```
+
 ### Average of an Array of Number
 
 ```JavaScript
